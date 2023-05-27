@@ -1,10 +1,11 @@
 import React from "react"
 
 
-export default function First(){
+export default function Header(){
+
     return(
         <>
-        <h1>Hello world</h1>
+        <h2>Expense Tracker</h2>
         </>
     )
 }
