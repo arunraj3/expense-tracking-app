@@ -9,8 +9,6 @@ export default function App() {
      <Header/>
      <div className="container">
       <Balance/>
-     </div>
-     <div>
       <IncomeExpense/>
      </div>
     </>
