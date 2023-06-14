@@ -1,12 +1,15 @@
 import './App.css';
 
 import Header from './components/Header';
-function App() {
+import Balance from './components/Balance'
+export default function App() {
   return (
-    <div>
+    <>
      <Header/>
-    </div>
+     <div className="container">
+      <Balance/>
+     </div>
+    </>
   );
 }
 
-export default App;
